@@ -8,13 +8,13 @@
  */
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 /**
@@ -22,8 +22,8 @@ html {
  */
 
 :root {
-	-moz-tab-size: 4;
-	tab-size: 4;
+  -moz-tab-size: 4;
+  tab-size: 4;
 }
 
 /**
@@ -32,8 +32,10 @@ html {
  */
 
 html {
-	line-height: 1.15; /* 1 */
-	-webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -44,7 +46,7 @@ html {
  */
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 /**
@@ -52,17 +54,8 @@ body {
  */
 
 body {
-	font-family:
-		-apple-system,
-		BlinkMacSystemFont,
-		'Segoe UI',
-		Roboto,
-		Helvetica,
-		Arial,
-		sans-serif,
-		'Apple Color Emoji',
-		'Segoe UI Emoji',
-		'Segoe UI Symbol';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 /* Grouping content
@@ -73,7 +66,7 @@ body {
  */
 
 hr {
-	height: 0;
+  height: 0;
 }
 
 /* Text-level semantics
@@ -84,7 +77,7 @@ hr {
  */
 
 abbr[title] {
-	text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /**
@@ -93,7 +86,7 @@ abbr[title] {
 
 b,
 strong {
-	font-weight: bolder;
+  font-weight: bolder;
 }
 
 /**
@@ -105,8 +98,11 @@ code,
 kbd,
 samp,
 pre {
-	font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace; /* 1 */
-	font-size: 1em; /* 2 */
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -114,7 +110,7 @@ pre {
  */
 
 small {
-	font-size: 80%;
+  font-size: 80%;
 }
 
 /**
@@ -123,18 +119,18 @@ small {
 
 sub,
 sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
 sub {
-	bottom: -0.25em;
+  bottom: -0.25em;
 }
 
 sup {
-	top: -0.5em;
+  top: -0.5em;
 }
 
 /* Forms
@@ -150,10 +146,14 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit; /* 1 */
-	font-size: 100%; /* 1 */
-	line-height: 1.15; /* 1 */
-	margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -162,8 +162,9 @@ textarea {
  */
 
 button,
-select { /* 1 */
-	text-transform: none;
+select {
+  /* 1 */
+  text-transform: none;
 }
 
 /**
@@ -171,10 +172,10 @@ select { /* 1 */
  */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
-	-webkit-appearance: button;
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
 }
 
 /**
@@ -182,11 +183,11 @@ button,
  */
 
 button::-moz-focus-inner,
-[type='button']::-moz-focus-inner,
-[type='reset']::-moz-focus-inner,
-[type='submit']::-moz-focus-inner {
-	border-style: none;
-	padding: 0;
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
 }
 
 /**
@@ -194,10 +195,10 @@ button::-moz-focus-inner,
  */
 
 button:-moz-focusring,
-[type='button']:-moz-focusring,
-[type='reset']:-moz-focusring,
-[type='submit']:-moz-focusring {
-	outline: 1px dotted ButtonText;
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
 }
 
 /**
@@ -205,7 +206,7 @@ button:-moz-focusring,
  */
 
 fieldset {
-	padding: 0.35em 0.75em 0.625em;
+  padding: 0.35em 0.75em 0.625em;
 }
 
 /**
@@ -213,7 +214,7 @@ fieldset {
  */
 
 legend {
-	padding: 0;
+  padding: 0;
 }
 
 /**
@@ -221,16 +222,16 @@ legend {
  */
 
 progress {
-	vertical-align: baseline;
+  vertical-align: baseline;
 }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Safari.
  */
 
-[type='number']::-webkit-inner-spin-button,
-[type='number']::-webkit-outer-spin-button {
-	height: auto;
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
 }
 
 /**
@@ -238,17 +239,19 @@ progress {
  * 2. Correct the outline style in Safari.
  */
 
-[type='search'] {
-	-webkit-appearance: textfield; /* 1 */
-	outline-offset: -2px; /* 2 */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
-[type='search']::-webkit-search-decoration {
-	-webkit-appearance: none;
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
 }
 
 /**
@@ -257,8 +260,10 @@ progress {
  */
 
 ::-webkit-file-upload-button {
-	-webkit-appearance: button; /* 1 */
-	font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -269,5 +274,5 @@ progress {
  */
 
 summary {
-	display: list-item;
+  display: list-item;
 }

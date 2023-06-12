@@ -2,7 +2,7 @@
 title: Uni Kravitz
 
 # Description of your website. This is used for social sharing.
-description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
+description: The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
 
 # A brief blurb about yourself
 content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
@@ -20,7 +20,7 @@ social:
 
 # General settings
 # url: http://brianmaierjr.github.com/uni
-# baseurl: "/uni" 
+# baseurl: "/uni"
 markdown: kramdown
 sharing_image: share.jpg
 google_analytics: "UA-58263416-1" # google analytics tracking
