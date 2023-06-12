@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+  {% include head.html %}
 
-{% include head.html %}
-
-<body class="half">
-
-  <main>
-    <div class="half--{{ site.half_side }} half__content">
-      {{ content }}
-      {% include social.html %}
-    </div>
-    <div class="half__image"></div>
-  </main>
-
-</body>
-
+  <body class="half">
+    <main>
+      <div class="half--{{ site.half_side }} half__content">
+        {{ content }} {% include social.html %}
+      </div>
+      <div class="half__image"></div>
+    </main>
+  </body>
 </html>
