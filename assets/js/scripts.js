@@ -1,2 +1,2 @@
 // A $( document ).ready() block.
-$(document).ready(function() {});
+$(document).ready(function () {});

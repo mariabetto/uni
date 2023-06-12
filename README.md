@@ -6,18 +6,18 @@
 
 ## Features
 
-* Minimal, One-Page Design
-* Fast and responsive
-* Flexible
-* Built using these tools:
-  * GULP
-  * SASS
-  * BROWSERSYNC
-  * AUTOPREFIXER
-* A modular, type scale
-* 3 different layouts with additional options
-* Responsive Images for performance
-* Social Meta Tags
+- Minimal, One-Page Design
+- Fast and responsive
+- Flexible
+- Built using these tools:
+  - GULP
+  - SASS
+  - BROWSERSYNC
+  - AUTOPREFIXER
+- A modular, type scale
+- 3 different layouts with additional options
+- Responsive Images for performance
+- Social Meta Tags
 
 ## Browser Support
 
@@ -41,15 +41,15 @@ Please note that any changes made to the `config.yml` will require that you stop
 
 The main settings can be found inside the `_config.yml` file:
 
-* **title:** you or your company's name
-* **description:** description of your site that will be used when your site is shared or posted on social media
-* **sharing_image:** name of your image (example.jpg). This image should be placed in the `assets/img/` folder
-* **content:** a brief blurb about yourself
-* **url:** your url
-* **social** diverse social media usernames (optional)
-  * **platform**: display name for social media or external link
-  * **url**: destination for the link
-* **google_analytics** Google Analytics key (optional)
+- **title:** you or your company's name
+- **description:** description of your site that will be used when your site is shared or posted on social media
+- **sharing_image:** name of your image (example.jpg). This image should be placed in the `assets/img/` folder
+- **content:** a brief blurb about yourself
+- **url:** your url
+- **social** diverse social media usernames (optional)
+  - **platform**: display name for social media or external link
+  - **url**: destination for the link
+- **google_analytics** Google Analytics key (optional)
 
 ---
 
@@ -57,7 +57,7 @@ The main settings can be found inside the `_config.yml` file:
 
 ## Half Layout
 
-* **half_side:** which side of the page your content is on [left or right]
+- **half_side:** which side of the page your content is on [left or right]
 
 ---
 
@@ -65,7 +65,7 @@ The main settings can be found inside the `_config.yml` file:
 
 ## Full layout
 
-* **full_text_position:** where on the page the text will appear [left, center, or right]
+- **full_text_position:** where on the page the text will appear [left, center, or right]
 
 ---
 
@@ -112,12 +112,12 @@ As stated above, the images are set in the respective stylesheets found in `asse
 
 We are using responsive images that require three different image sizes. This allows the browser to serve the appropriate image based on the screen size. Recommended image widths are:
 
-* #### Small: 768px wide
-* #### Medium: 1200px wide
-* #### Large: 1600px wide
+- #### Small: 768px wide
+- #### Medium: 1200px wide
+- #### Large: 1600px wide
 
 To replace the images, modify the names in the `responsivebackground` mixin as shown below.
-*Make sure to include the file extension!*
+_Make sure to include the file extension!_
 
 ```
 @include responsivebackground("half-sm.jpg", "half-md.jpg", "half-lg.jpg");
